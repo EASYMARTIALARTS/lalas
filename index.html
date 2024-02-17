@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temporizador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="centrado">
+        <h1 id="temporizador">00:00:00.00</h1>
+        <button onclick="setTemporizador(5)">5 Minutos</button>
+        <button onclick="setTemporizador(2)">2 Minutos</button>
+        <button onclick="setTemporizador(1)">1 Minuto</button>
+        <button onclick="setTemporizador(0.5)">30 Segundos</button>
+        <button onclick="setTemporizador(0.16667)">10 Segundos</button>
+        <button id="btnIniciar" onclick="iniciarTemporizador()">Iniciar Temporizador</button>
+        <button onclick="detenerTemporizador()">Detener Temporizador</button>
+    </div>
+
+    <script src="temporizador.js"></script>
+</body>
+</html>

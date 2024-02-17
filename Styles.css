@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* Cambiar la fuente si lo deseas */
+}
+
+.centrado {
+    text-align: center;
+}
+
+#temporizador {
+    font-size: 8em; /* Tamaño grande del temporizador */
+}
